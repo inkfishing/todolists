@@ -1,16 +1,27 @@
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 0px;
-    top: 0px;
-    width: 454px;
-    height: 454px;
+    padding: 16px;
+    flex-direction: column;
 }
 
 .title {
+    font-size: 50px;
+    text-align: start;
+}
+
+.content {
+    font-size: 30px;
+    text-align: start;
+}
+
+.menu {
+    justify-content: center;
+}
+
+.save {
     font-size: 30px;
     text-align: center;
-    width: 200px;
-    height: 100px;
+    align-content:flex-start;
+    padding: 16px;
+    margin: 16px;
 }

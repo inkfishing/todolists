@@ -6,10 +6,9 @@
     </div>
 
     <list class="notelist" id="list">
-        <list-item for="{{todolist}}" class="note_item" onclick="editItem({{$item.title }}, {{ $item.content }})" >
+        <list-item for="{{todolists}}" class="note_item" onclick="editItem({{$item.title }}, {{ $item.content }})" >
             <text class="note_title">{{$item.title}}</text>
             <text class="note_content">{{$item.content}}</text>
         </list-item>
     </list>
-
 </div>
